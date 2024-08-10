@@ -8,8 +8,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Awesomium.NetWrapper.Unofficial" Version="1.7.5" />
-    <PackageReference Include="MVVM.awesomium" Version="0.9.9" />
     <PackageReference Include="NAudio" Version="2.2.1" />
     <PackageReference Include="OpenTK" Version="4.8.2" />
     <PackageReference Include="OpenTK.Audio.OpenAL" Version="4.8.2" />

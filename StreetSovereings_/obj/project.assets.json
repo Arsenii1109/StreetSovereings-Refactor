@@ -2,19 +2,6 @@
   "version": 3,
   "targets": {
     "net8.0": {
-      "Awesomium.NetWrapper.Unofficial/1.7.5": {
-        "type": "package",
-        "compile": {
-          "lib/Awesomium.Core.dll": {},
-          "lib/Awesomium.Windows.Controls.dll": {},
-          "lib/Awesomium.Windows.Forms.dll": {}
-        },
-        "runtime": {
-          "lib/Awesomium.Core.dll": {},
-          "lib/Awesomium.Windows.Controls.dll": {},
-          "lib/Awesomium.Windows.Forms.dll": {}
-        }
-      },
       "Microsoft.NETCore.Platforms/3.1.0": {
         "type": "package",
         "compile": {
@@ -49,18 +36,6 @@
             "assetType": "runtime",
             "rid": "win"
           }
-        }
-      },
-      "MVVM.awesomium/0.9.9": {
-        "type": "package",
-        "dependencies": {
-          "Unofficial.Awesomium.Complete": "1.7.2"
-        },
-        "compile": {
-          "lib/MVVMAwesomium.dll": {}
-        },
-        "runtime": {
-          "lib/MVVMAwesomium.dll": {}
         }
       },
       "NAudio/2.2.1": {
@@ -430,60 +405,10 @@
             "rid": "win"
           }
         }
-      },
-      "Unofficial.Awesomium.Complete/1.7.4.2": {
-        "type": "package",
-        "compile": {
-          "lib/Awesomium.Core.dll": {},
-          "lib/Awesomium.Windows.Controls.dll": {}
-        },
-        "runtime": {
-          "lib/Awesomium.Core.dll": {},
-          "lib/Awesomium.Windows.Controls.dll": {}
-        }
       }
     }
   },
   "libraries": {
-    "Awesomium.NetWrapper.Unofficial/1.7.5": {
-      "sha512": "Nr9fjCU4+b8UTk2X+bNpibNqRAKe8O4W7kLH1aMQE9VRqa5PxkEDHQuM+xmckRvRaoOzq08SMsTlAodnH2A6hA==",
-      "type": "package",
-      "path": "awesomium.netwrapper.unofficial/1.7.5",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "awesomium.netwrapper.unofficial.1.7.5.nupkg.sha512",
-        "awesomium.netwrapper.unofficial.nuspec",
-        "lib/Awesomium.Core.XML",
-        "lib/Awesomium.Core.dll",
-        "lib/Awesomium.Mono.XML",
-        "lib/Awesomium.Mono.dll",
-        "lib/Awesomium.Mono.dll.config",
-        "lib/Awesomium.Windows.Controls.XML",
-        "lib/Awesomium.Windows.Controls.dll",
-        "lib/Awesomium.Windows.Forms.XML",
-        "lib/Awesomium.Windows.Forms.dll",
-        "lib/Design/Awesomium.Windows.Controls.Design.10.dll",
-        "lib/Design/Awesomium.Windows.Controls.Design.11.dll",
-        "lib/Design/Awesomium.Windows.Controls.Design.12.dll",
-        "lib/Design/Awesomium.Windows.Forms.Design.dll",
-        "lib/Design/README.txt",
-        "lib/Packed/Awesomium.Core.dll",
-        "lib/Packed/README.txt",
-        "lib/README.txt",
-        "lib/avcodec-53.dll",
-        "lib/avformat-53.dll",
-        "lib/avutil-51.dll",
-        "lib/awesomium.dll",
-        "lib/awesomium_process",
-        "lib/icudt.dll",
-        "lib/inspector.pak",
-        "lib/libEGL.dll",
-        "lib/libGLESv2.dll",
-        "lib/pdf_js.pak",
-        "lib/xinput9_1_0.dll"
-      ]
-    },
     "Microsoft.NETCore.Platforms/3.1.0": {
       "sha512": "z7aeg8oHln2CuNulfhiLYxCVMPEwBl3rzicjvIX+4sUuCwvXw5oXQEtbiU2c0z4qYL5L3Kmx0mMA/+t/SbY67w==",
       "type": "package",
@@ -546,25 +471,6 @@
         "runtimes/win/lib/netstandard2.0/Microsoft.Win32.Registry.xml",
         "useSharedDesignerContext.txt",
         "version.txt"
-      ]
-    },
-    "MVVM.awesomium/0.9.9": {
-      "sha512": "Lr+lxGaO4JGYzf9FSAzV32hVyMS980bbjzg6z7o3Nl/LcXP2g0XXp+pQRrJm+0f0eXOaxcsBL18j/AFNuI0U8w==",
-      "type": "package",
-      "path": "mvvm.awesomium/0.9.9",
-      "hasTools": true,
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "content/Javascript/Ko_Extension.js",
-        "content/Javascript/Ko_Extension.min.js",
-        "content/Javascript/Ko_Extension.min.js.map",
-        "content/Javascript/knockout.js",
-        "lib/MVVMAwesomium.dll",
-        "lib/MVVMAwesomium.pdb",
-        "mvvm.awesomium.0.9.9.nupkg.sha512",
-        "mvvm.awesomium.nuspec",
-        "tools/install.ps1"
       ]
     },
     "NAudio/2.2.1": {
@@ -985,37 +891,10 @@
         "system.windows.extensions.nuspec",
         "useSharedDesignerContext.txt"
       ]
-    },
-    "Unofficial.Awesomium.Complete/1.7.4.2": {
-      "sha512": "CCZvE444JoL8/D54XD66vKc4wWjAKwkDjgns4hmZvA5svg6w2F5A2SGgnlxscnvy0Fh9zFLUk6sjJ+L0SJ+DvA==",
-      "type": "package",
-      "path": "unofficial.awesomium.complete/1.7.4.2",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/Awesomium.Core.dll",
-        "lib/Awesomium.Core.xml",
-        "lib/Awesomium.Windows.Controls.dll",
-        "lib/Awesomium.Windows.Controls.xml",
-        "lib/avcodec-53.dll",
-        "lib/avformat-53.dll",
-        "lib/avutil-51.dll",
-        "lib/awesomium.dll",
-        "lib/awesomium_process",
-        "lib/icudt.dll",
-        "lib/inspector.pak",
-        "lib/libEGL.dll",
-        "lib/libGLESv2.dll",
-        "lib/xinput9_1_0.dll",
-        "unofficial.awesomium.complete.1.7.4.2.nupkg.sha512",
-        "unofficial.awesomium.complete.nuspec"
-      ]
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
-      "Awesomium.NetWrapper.Unofficial >= 1.7.5",
-      "MVVM.awesomium >= 0.9.9",
       "NAudio >= 2.2.1",
       "OpenTK >= 4.8.2",
       "OpenTK.Audio.OpenAL >= 4.8.2",
@@ -1075,14 +954,6 @@
       "net8.0": {
         "targetAlias": "net8.0",
         "dependencies": {
-          "Awesomium.NetWrapper.Unofficial": {
-            "target": "Package",
-            "version": "[1.7.5, )"
-          },
-          "MVVM.awesomium": {
-            "target": "Package",
-            "version": "[0.9.9, )"
-          },
           "NAudio": {
             "target": "Package",
             "version": "[2.2.1, )"
@@ -1119,47 +990,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1603",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "MVVM.awesomium 0.9.9 depends on Unofficial.Awesomium.Complete (>= 1.7.2) but Unofficial.Awesomium.Complete 1.7.2 was not found. An approximate best match of Unofficial.Awesomium.Complete 1.7.4.2 was resolved.",
-      "libraryId": "Unofficial.Awesomium.Complete",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    },
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'Awesomium.NetWrapper.Unofficial 1.7.5' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
-      "libraryId": "Awesomium.NetWrapper.Unofficial",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    },
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'MVVM.awesomium 0.9.9' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
-      "libraryId": "MVVM.awesomium",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    },
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'Unofficial.Awesomium.Complete 1.7.4.2' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
-      "libraryId": "Unofficial.Awesomium.Complete",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    }
-  ]
+  }
 }

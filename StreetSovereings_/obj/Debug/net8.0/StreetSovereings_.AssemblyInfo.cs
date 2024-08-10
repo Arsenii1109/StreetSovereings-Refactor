@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("StreetSovereings_")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8e60af24ae61bca8290b93d3527c597ffdec238e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9fbe074d172a3bafd8aa703022ffc8b729c1dd35")]
 [assembly: System.Reflection.AssemblyProductAttribute("StreetSovereings_")]
 [assembly: System.Reflection.AssemblyTitleAttribute("StreetSovereings_")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
