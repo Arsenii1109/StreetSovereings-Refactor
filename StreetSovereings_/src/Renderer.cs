@@ -6,7 +6,6 @@ using OpenTK.Windowing.Common;
 using OpenTK.Windowing.Desktop;
 using OpenTK.Windowing.GraphicsLibraryFramework;
 using StreetSovereings_.src.objects;
-using StreetSovereings_.src.controllers.sounds;
 
 namespace StreetSovereings_.src
 {
@@ -206,6 +205,10 @@ namespace StreetSovereings_.src
                 {
                     _leftControlPressed = false;
                     speed = _initialSpeed;
+                }
+                else if (input.IsKeyDown(Keys.Escape) && input.IsKeyDown(Keys.LeftAlt))
+                {
+                    Close();
                 }
             }
 
