@@ -54,6 +54,9 @@ namespace StreetSovereings_.src
             private int _menuShaderProgram;
             private int _frameShaderProgram;
 
+            // The variable a show coordinates on Console
+            private bool _debugShowCoordinates = true;
+
             private IWavePlayer waveOutDeviceWalking;
             private Mp3FileReader mp3FileReader;
             private bool isWalkingSoundPlaying = false;
@@ -72,7 +75,8 @@ namespace StreetSovereings_.src
             public Game() : base(GameWindowSettings.Default, new NativeWindowSettings
             {
                 Title = "Street Sovereigns",
-                Size = new Vector2i(800, 600)
+                MinimumSize = new Vector2i(800, 600),
+                Size = new Vector2i(1000, 800)
             })
             {
             }
@@ -117,6 +121,16 @@ namespace StreetSovereings_.src
                 // Unbind VBO and VAO
                 GL.BindBuffer(BufferTarget.ArrayBuffer, 0);
                 GL.BindVertexArray(0);
+            }
+
+            protected override void OnResize(ResizeEventArgs e)
+            {
+                base.OnResize(e);
+
+                GL.Viewport(0, 0, e.Width, e.Height);
+
+                var projection = Matrix4.CreatePerspectiveFieldOfView(MathHelper.DegreesToRadians(45.0f), e.Width / (float)e.Height, 0.1f, 100.0f);
+                GL.UniformMatrix4(GL.GetUniformLocation(_shaderProgram, "projection"), false, ref projection);
             }
 
             private void InitializeShaders()
@@ -164,36 +178,50 @@ namespace StreetSovereings_.src
                 }
             }
 
+            private void ShowDebugCoordinates()
+            {
+                if (_debugShowCoordinates)
+                {
+                    Console.WriteLine(_cameraPosition);
+                }
+            }
+
             private void UpdateGame(KeyboardState input)
             {
                 if (input.IsKeyDown(Keys.W))
                 {
                     _cameraPosition += new Vector3(0, 0, -speed);
                     StartWalkingSound();
+                    ShowDebugCoordinates();
                 }
                 else if (input.IsKeyDown(Keys.S))
                 {
                     _cameraPosition += new Vector3(0, 0, speed);
                     StartWalkingSound();
+                    ShowDebugCoordinates();
                 }
                 else if (input.IsKeyDown(Keys.A))
                 {
                     _cameraPosition += new Vector3(-speed, 0, 0);
                     StartWalkingSound();
+                    ShowDebugCoordinates();
                 }
                 else if (input.IsKeyDown(Keys.D))
                 {
                     _cameraPosition += new Vector3(speed, 0, 0);
                     StartWalkingSound();
+                    ShowDebugCoordinates();
                 }
 
                 if (input.IsKeyDown(Keys.Space))
                 {
                     _cameraPosition += new Vector3(0, speed, 0);
+                    ShowDebugCoordinates();
                 }
                 if (input.IsKeyDown(Keys.LeftShift))
                 {
                     _cameraPosition += new Vector3(0, -speed, 0);
+                    ShowDebugCoordinates();
                 }
                 if (input.IsKeyPressed(Keys.LeftControl) && !_leftControlPressed)
                 {
@@ -247,13 +275,16 @@ namespace StreetSovereings_.src
                 GL.UseProgram(_menuShaderProgram);
 
                 float[] buttonVertices = {
-                    _playButtonPosition.X, _playButtonPosition.Y,
-                    _playButtonPosition.X + _playButtonSize.X, _playButtonPosition.Y,
-                    _playButtonPosition.X + _playButtonSize.X, _playButtonPosition.Y + _playButtonSize.Y,
-                    _playButtonPosition.X, _playButtonPosition.Y + _playButtonSize.Y
-                };
+        -0.1f, -0.1f, // top-left
+         0.1f, -0.1f, // top-right
+         0.1f,  0.1f, // bottom-right
+        -0.1f,  0.1f  // bottom-left
+    };
 
-                uint[] buttonIndices = { 0, 1, 2, 2, 3, 0 };
+                uint[] buttonIndices = {
+        0, 1, 2,
+        2, 3, 0
+    };
 
                 int vbo = GL.GenBuffer();
                 GL.BindBuffer(BufferTarget.ArrayBuffer, vbo);
@@ -267,14 +298,6 @@ namespace StreetSovereings_.src
                 GL.EnableVertexAttribArray(0);
 
                 GL.DrawElements(PrimitiveType.Triangles, buttonIndices.Length, DrawElementsType.UnsignedInt, 0);
-
-                // Draw button frame
-                GL.UseProgram(_frameShaderProgram);
-                GL.LineWidth(2.0f);
-                GL.DrawElements(PrimitiveType.LineLoop, buttonIndices.Length, DrawElementsType.UnsignedInt, 0);
-
-                // Render Text (Placeholder, replace this with your text rendering)
-                // RenderText("Play", new Vector2(_playButtonPosition.X + 0.05f, _playButtonPosition.Y + 0.025f));
 
                 GL.DisableVertexAttribArray(0);
                 GL.DeleteBuffer(vbo);
