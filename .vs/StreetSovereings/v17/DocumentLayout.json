@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "E:\\Street_Sovereings_Game\\StreetSovereings\\StreetSovereings\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{31DC468E-5908-4424-88D1-5D082962D9CE}|StreetSovereings_\\StreetSovereings_.csproj|e:\\street_sovereings_game\\streetsovereings\\streetsovereings\\streetsovereings_\\src\\modloader\\modloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{31DC468E-5908-4424-88D1-5D082962D9CE}|StreetSovereings_\\StreetSovereings_.csproj|solutionrelative:streetsovereings_\\src\\modloader\\modloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{31DC468E-5908-4424-88D1-5D082962D9CE}|StreetSovereings_\\StreetSovereings_.csproj|e:\\street_sovereings_game\\streetsovereings\\streetsovereings\\streetsovereings_\\src\\renderer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{31DC468E-5908-4424-88D1-5D082962D9CE}|StreetSovereings_\\StreetSovereings_.csproj|solutionrelative:streetsovereings_\\src\\renderer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31DC468E-5908-4424-88D1-5D082962D9CE}|StreetSovereings_\\StreetSovereings_.csproj|e:\\street_sovereings_game\\streetsovereings\\streetsovereings\\streetsovereings_\\src\\objects\\addmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31DC468E-5908-4424-88D1-5D082962D9CE}|StreetSovereings_\\StreetSovereings_.csproj|solutionrelative:streetsovereings_\\src\\objects\\addmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31DC468E-5908-4424-88D1-5D082962D9CE}|StreetSovereings_\\StreetSovereings_.csproj|e:\\street_sovereings_game\\streetsovereings\\streetsovereings\\streetsovereings_\\src\\objects\\addcube.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31DC468E-5908-4424-88D1-5D082962D9CE}|StreetSovereings_\\StreetSovereings_.csproj|solutionrelative:streetsovereings_\\src\\objects\\addcube.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31DC468E-5908-4424-88D1-5D082962D9CE}|StreetSovereings_\\StreetSovereings_.csproj|e:\\street_sovereings_game\\streetsovereings\\streetsovereings\\streetsovereings_\\src\\modloader\\modloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31DC468E-5908-4424-88D1-5D082962D9CE}|StreetSovereings_\\StreetSovereings_.csproj|solutionrelative:streetsovereings_\\src\\modloader\\modloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{31DC468E-5908-4424-88D1-5D082962D9CE}|StreetSovereings_\\StreetSovereings_.csproj|e:\\street_sovereings_game\\streetsovereings\\streetsovereings\\streetsovereings_\\streetsovereings_.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -17,10 +25,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{31DC468E-5908-4424-88D1-5D082962D9CE}|StreetSovereings_\\StreetSovereings_.csproj|e:\\street_sovereings_game\\streetsovereings\\streetsovereings\\streetsovereings_\\src\\objects\\addplane.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{31DC468E-5908-4424-88D1-5D082962D9CE}|StreetSovereings_\\StreetSovereings_.csproj|solutionrelative:streetsovereings_\\src\\objects\\addplane.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{31DC468E-5908-4424-88D1-5D082962D9CE}|StreetSovereings_\\StreetSovereings_.csproj|e:\\street_sovereings_game\\streetsovereings\\streetsovereings\\streetsovereings_\\src\\objects\\addcube.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{31DC468E-5908-4424-88D1-5D082962D9CE}|StreetSovereings_\\StreetSovereings_.csproj|solutionrelative:streetsovereings_\\src\\objects\\addcube.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,7 +42,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
+              "Title": "addModel.cs",
+              "DocumentMoniker": "E:\\Street_Sovereings_Game\\StreetSovereings\\StreetSovereings\\StreetSovereings_\\src\\objects\\addModel.cs",
+              "RelativeDocumentMoniker": "StreetSovereings_\\src\\objects\\addModel.cs",
+              "ToolTip": "E:\\Street_Sovereings_Game\\StreetSovereings\\StreetSovereings\\StreetSovereings_\\src\\objects\\addModel.cs",
+              "RelativeToolTip": "StreetSovereings_\\src\\objects\\addModel.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAMAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-12T08:18:00.869Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "StreetSovereings_.csproj",
               "DocumentMoniker": "E:\\Street_Sovereings_Game\\StreetSovereings\\StreetSovereings\\StreetSovereings_\\StreetSovereings_.csproj",
               "RelativeDocumentMoniker": "StreetSovereings_\\StreetSovereings_.csproj",
@@ -50,7 +67,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "addPlane.cs",
               "DocumentMoniker": "E:\\Street_Sovereings_Game\\StreetSovereings\\StreetSovereings\\StreetSovereings_\\src\\objects\\addPlane.cs",
               "RelativeDocumentMoniker": "StreetSovereings_\\src\\objects\\addPlane.cs",
@@ -62,39 +79,42 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Renderer.cs",
               "DocumentMoniker": "E:\\Street_Sovereings_Game\\StreetSovereings\\StreetSovereings\\StreetSovereings_\\src\\Renderer.cs",
               "RelativeDocumentMoniker": "StreetSovereings_\\src\\Renderer.cs",
               "ToolTip": "E:\\Street_Sovereings_Game\\StreetSovereings\\StreetSovereings\\StreetSovereings_\\src\\Renderer.cs",
               "RelativeToolTip": "StreetSovereings_\\src\\Renderer.cs",
-              "ViewState": "AQIAAE0AAAAAAAAAAAAwwG8AAAAdAAAA",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAmwDgAAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-26T09:21:01.763Z"
+              "WhenOpened": "2024-07-26T09:21:01.763Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "addCube.cs",
               "DocumentMoniker": "E:\\Street_Sovereings_Game\\StreetSovereings\\StreetSovereings\\StreetSovereings_\\src\\objects\\addCube.cs",
               "RelativeDocumentMoniker": "StreetSovereings_\\src\\objects\\addCube.cs",
               "ToolTip": "E:\\Street_Sovereings_Game\\StreetSovereings\\StreetSovereings\\StreetSovereings_\\src\\objects\\addCube.cs",
               "RelativeToolTip": "StreetSovereings_\\src\\objects\\addCube.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAARAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-26T09:20:47.391Z"
+              "WhenOpened": "2024-07-26T09:20:47.391Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "ModLoader.cs",
               "DocumentMoniker": "E:\\Street_Sovereings_Game\\StreetSovereings\\StreetSovereings\\StreetSovereings_\\src\\ModLoader\\ModLoader.cs",
               "RelativeDocumentMoniker": "StreetSovereings_\\src\\ModLoader\\ModLoader.cs",
               "ToolTip": "E:\\Street_Sovereings_Game\\StreetSovereings\\StreetSovereings\\StreetSovereings_\\src\\ModLoader\\ModLoader.cs",
               "RelativeToolTip": "StreetSovereings_\\src\\ModLoader\\ModLoader.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAANAAAA",
+              "ViewState": "AQIAACEAAAAAAAAAAAAowC0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-10T07:45:18.222Z"
+              "WhenOpened": "2024-08-10T07:45:18.222Z",
+              "EditorCaption": ""
             }
           ]
         }

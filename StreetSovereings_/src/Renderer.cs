@@ -54,6 +54,8 @@ namespace StreetSovereings_.src
             private int _menuShaderProgram;
             private int _frameShaderProgram;
 
+            //private AddModel _addModel;
+
             // The variable a show coordinates on Console
             private bool _debugShowCoordinates = true;
 
@@ -84,7 +86,7 @@ namespace StreetSovereings_.src
             protected override void OnLoad()
             {
                 base.OnLoad();
-                GL.ClearColor(Color4.Black); // Set background color to black
+                GL.ClearColor(Color4.Black); 
 
                 waveOutDeviceWalking = new WaveOutEvent();
                 waveOutDeviceWalking.PlaybackStopped += OnPlaybackWalkingStopped;
@@ -96,6 +98,8 @@ namespace StreetSovereings_.src
 
                 // Add a default plane
                 AddPlane(0.0f, -1.0f, 0.0f, 10.0f, 0.1f, 10.0f, new Vector4(0.5f, 0.5f, 0.5f, 1.0f));
+                //_addModel = new AddModel("model_1", "path to model");
+                //_addModel.LoadModel();
             }
 
             private void InitializeBuffers()
@@ -265,6 +269,8 @@ namespace StreetSovereings_.src
                 {
                     RenderGame();
                 }
+
+                //_addModel.RenderModel();
 
                 SwapBuffers();
             }
