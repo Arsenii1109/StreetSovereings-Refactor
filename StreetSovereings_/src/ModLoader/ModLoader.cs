@@ -11,7 +11,7 @@ namespace StreetSovereings_.src.ModLoader
 
             string modsDirectory = "./mods/";
 
-            if (Directory.Exists("modsDirectory"))
+            if (Directory.Exists(modsDirectory))
             {
                 string[] files = Directory.GetFiles(modsDirectory);
 

@@ -11,6 +11,13 @@ namespace StreetSovereings_.src
 {
     internal class Renderer
     {
+        private static NativeWindowSettings _settings = new NativeWindowSettings
+        {
+            Title = "Street Sovereigns",
+            MinimumSize = new Vector2i(800, 600),
+            Size = new Vector2i(1000, 800)
+        };
+        
         public class Game : GameWindow
         {
             private enum GameState
@@ -74,13 +81,7 @@ namespace StreetSovereings_.src
             private Vector2 _playButtonPosition = new Vector2(-0.1f, -0.1f);
             private Vector2 _playButtonSize = new Vector2(0.2f, 0.1f);
 
-            public Game() : base(GameWindowSettings.Default, new NativeWindowSettings
-            {
-                Title = "Street Sovereigns",
-                MinimumSize = new Vector2i(800, 600),
-                Size = new Vector2i(1000, 800)
-            })
-            {
+            public Game() : base(GameWindowSettings.Default, _settings) {
             }
 
             protected override void OnLoad()
@@ -281,16 +282,16 @@ namespace StreetSovereings_.src
                 GL.UseProgram(_menuShaderProgram);
 
                 float[] buttonVertices = {
-        -0.1f, -0.1f, // top-left
-         0.1f, -0.1f, // top-right
-         0.1f,  0.1f, // bottom-right
-        -0.1f,  0.1f  // bottom-left
-    };
+                    -0.1f, -0.1f, // top-left
+                     0.1f, -0.1f, // top-right
+                     0.1f,  0.1f, // bottom-right
+                    -0.1f,  0.1f  // bottom-left
+                };
 
                 uint[] buttonIndices = {
-        0, 1, 2,
-        2, 3, 0
-    };
+                    0, 1, 2,
+                    2, 3, 0
+                };
 
                 int vbo = GL.GenBuffer();
                 GL.BindBuffer(BufferTarget.ArrayBuffer, vbo);
