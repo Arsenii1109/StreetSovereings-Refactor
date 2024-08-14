@@ -193,45 +193,23 @@ namespace StreetSovereings_.src
 
             private void UpdateGame(KeyboardState input)
             {
-                if (input.IsKeyDown(Keys.W))
+                var movement = new Vector3(
+                    input.IsKeyDown(Keys.D) ? speed : input.IsKeyDown(Keys.A) ? -speed : 0,
+                    input.IsKeyDown(Keys.Space) ? speed : input.IsKeyDown(Keys.LeftShift) ? -speed : 0,
+                    input.IsKeyDown(Keys.W) ? -speed : input.IsKeyDown(Keys.S) ? speed : 0
+                );
+                _cameraPosition += movement;
+
+                if (movement != Vector3.Zero)
                 {
-                    _cameraPosition += new Vector3(0, 0, -speed);
-                    StartWalkingSound();
-                    ShowDebugCoordinates();
-                }
-                else if (input.IsKeyDown(Keys.S))
-                {
-                    _cameraPosition += new Vector3(0, 0, speed);
-                    StartWalkingSound();
-                    ShowDebugCoordinates();
-                }
-                else if (input.IsKeyDown(Keys.A))
-                {
-                    _cameraPosition += new Vector3(-speed, 0, 0);
-                    StartWalkingSound();
-                    ShowDebugCoordinates();
-                }
-                else if (input.IsKeyDown(Keys.D))
-                {
-                    _cameraPosition += new Vector3(speed, 0, 0);
                     StartWalkingSound();
                     ShowDebugCoordinates();
                 }
 
-                if (input.IsKeyDown(Keys.Space))
-                {
-                    _cameraPosition += new Vector3(0, speed, 0);
-                    ShowDebugCoordinates();
-                }
-                if (input.IsKeyDown(Keys.LeftShift))
-                {
-                    _cameraPosition += new Vector3(0, -speed, 0);
-                    ShowDebugCoordinates();
-                }
                 if (input.IsKeyPressed(Keys.LeftControl) && !_leftControlPressed)
                 {
                     _initialSpeed = speed;
-                    speed += speed;
+                    speed *= 2;
                     _leftControlPressed = true;
                 }
                 else if (input.IsKeyReleased(Keys.LeftControl) && _leftControlPressed)
@@ -239,7 +217,8 @@ namespace StreetSovereings_.src
                     _leftControlPressed = false;
                     speed = _initialSpeed;
                 }
-                else if (input.IsKeyDown(Keys.Escape) && input.IsKeyDown(Keys.LeftAlt))
+
+                if (input.IsKeyDown(Keys.Escape) && input.IsKeyDown(Keys.LeftAlt))
                 {
                     Close();
                 }

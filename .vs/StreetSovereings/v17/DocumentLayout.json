@@ -50,8 +50,7 @@
               "RelativeToolTip": "StreetSovereings_\\src\\objects\\addModel.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAAAMAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-12T08:18:00.869Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-12T08:18:00.869Z"
             },
             {
               "$type": "Document",
@@ -85,7 +84,7 @@
               "RelativeDocumentMoniker": "StreetSovereings_\\src\\Renderer.cs",
               "ToolTip": "E:\\Street_Sovereings_Game\\StreetSovereings\\StreetSovereings\\StreetSovereings_\\src\\Renderer.cs",
               "RelativeToolTip": "StreetSovereings_\\src\\Renderer.cs",
-              "ViewState": "AQIAAB4AAAAAAAAAAAAmwDgAAAAOAAAA",
+              "ViewState": "AQIAAJEAAAAAAAAAAAAIwIkBAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-26T09:21:01.763Z",
               "EditorCaption": ""
@@ -100,8 +99,7 @@
               "RelativeToolTip": "StreetSovereings_\\src\\objects\\addCube.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-26T09:20:47.391Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-26T09:20:47.391Z"
             },
             {
               "$type": "Document",
@@ -113,8 +111,7 @@
               "RelativeToolTip": "StreetSovereings_\\src\\ModLoader\\ModLoader.cs",
               "ViewState": "AQIAACEAAAAAAAAAAAAowC0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-10T07:45:18.222Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-10T07:45:18.222Z"
             }
           ]
         }
