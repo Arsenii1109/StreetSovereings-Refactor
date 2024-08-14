@@ -17,16 +17,15 @@ namespace StreetSovereings_.src
             MinimumSize = new Vector2i(800, 600),
             Size = new Vector2i(1000, 800)
         };
-        
+
         public class Game : GameWindow
         {
             private enum GameState
             {
-                Menu,
-                Playing
+                Playing // Removed Menu state
             }
 
-            private GameState _currentState = GameState.Menu;
+            private GameState _currentState = GameState.Playing;
 
             private readonly CubeManager _cubeManager = new CubeManager();
             private readonly PlaneManager _planeManager = new PlaneManager();
@@ -58,12 +57,8 @@ namespace StreetSovereings_.src
             private int _vbo;
             private int _ebo;
             private int _shaderProgram;
-            private int _menuShaderProgram;
             private int _frameShaderProgram;
 
-            //private AddModel _addModel;
-
-            // The variable a show coordinates on Console
             private bool _debugShowCoordinates = true;
 
             private IWavePlayer waveOutDeviceWalking;
@@ -78,16 +73,14 @@ namespace StreetSovereings_.src
             float speed = 0.001f;
             float _initialSpeed;
 
-            private Vector2 _playButtonPosition = new Vector2(-0.1f, -0.1f);
-            private Vector2 _playButtonSize = new Vector2(0.2f, 0.1f);
-
-            public Game() : base(GameWindowSettings.Default, _settings) {
+            public Game() : base(GameWindowSettings.Default, _settings)
+            {
             }
 
             protected override void OnLoad()
             {
                 base.OnLoad();
-                GL.ClearColor(Color4.Black); 
+                GL.ClearColor(Color4.Black);
 
                 waveOutDeviceWalking = new WaveOutEvent();
                 waveOutDeviceWalking.PlaybackStopped += OnPlaybackWalkingStopped;
@@ -98,9 +91,7 @@ namespace StreetSovereings_.src
                 GL.Enable(EnableCap.DepthTest);
 
                 // Add a default plane
-                AddPlane(0.0f, -1.0f, 0.0f, 10.0f, 0.1f, 10.0f, new Vector4(0.5f, 0.5f, 0.5f, 1.0f));
-                //_addModel = new AddModel("model_1", "path to model");
-                //_addModel.LoadModel();
+                AddPlane(0.0f, -1.0f, 0.0f, 10.0f, 0.1f, 10.0f, new Vector4(0.5f, 0.5f, 0.5f, 1.0f)); // Ensure all four parameters are provided
             }
 
             private void InitializeBuffers()
@@ -141,7 +132,6 @@ namespace StreetSovereings_.src
             private void InitializeShaders()
             {
                 _shaderProgram = CreateShaderProgram(vertexShaderSource, fragmentShaderSource);
-                _menuShaderProgram = CreateShaderProgram(menuVertexShaderSource, menuFragmentShaderSource);
                 _frameShaderProgram = CreateShaderProgram(frameVertexShaderSource, frameFragmentShaderSource);
             }
 
@@ -164,23 +154,7 @@ namespace StreetSovereings_.src
 
                 var input = KeyboardState;
 
-                if (_currentState == GameState.Menu)
-                {
-                    if (MouseState.IsButtonDown(MouseButton.Left))
-                    {
-                        Vector2 mousePosition = new Vector2(MouseState.X, MouseState.Y);
-                        mousePosition = ScreenToNormalizedDeviceCoordinates(mousePosition, Size);
-
-                        if (IsMouseOverButton(mousePosition, _playButtonPosition, _playButtonSize))
-                        {
-                            _currentState = GameState.Playing;
-                        }
-                    }
-                }
-                else if (_currentState == GameState.Playing)
-                {
-                    UpdateGame(input);
-                }
+                UpdateGame(input);
             }
 
             private void ShowDebugCoordinates()
@@ -241,53 +215,9 @@ namespace StreetSovereings_.src
 
                 GL.Clear(ClearBufferMask.ColorBufferBit | ClearBufferMask.DepthBufferBit);
 
-                if (_currentState == GameState.Menu)
-                {
-                    RenderMenu();
-                }
-                else if (_currentState == GameState.Playing)
-                {
-                    RenderGame();
-                }
-
-                //_addModel.RenderModel();
+                RenderGame();
 
                 SwapBuffers();
-            }
-
-            private void RenderMenu()
-            {
-                GL.ClearColor(Color4.Black);
-                GL.UseProgram(_menuShaderProgram);
-
-                float[] buttonVertices = {
-                    -0.1f, -0.1f, // top-left
-                     0.1f, -0.1f, // top-right
-                     0.1f,  0.1f, // bottom-right
-                    -0.1f,  0.1f  // bottom-left
-                };
-
-                uint[] buttonIndices = {
-                    0, 1, 2,
-                    2, 3, 0
-                };
-
-                int vbo = GL.GenBuffer();
-                GL.BindBuffer(BufferTarget.ArrayBuffer, vbo);
-                GL.BufferData(BufferTarget.ArrayBuffer, buttonVertices.Length * sizeof(float), buttonVertices, BufferUsageHint.StaticDraw);
-
-                int ebo = GL.GenBuffer();
-                GL.BindBuffer(BufferTarget.ElementArrayBuffer, ebo);
-                GL.BufferData(BufferTarget.ElementArrayBuffer, buttonIndices.Length * sizeof(uint), buttonIndices, BufferUsageHint.StaticDraw);
-
-                GL.VertexAttribPointer(0, 2, VertexAttribPointerType.Float, false, 2 * sizeof(float), 0);
-                GL.EnableVertexAttribArray(0);
-
-                GL.DrawElements(PrimitiveType.Triangles, buttonIndices.Length, DrawElementsType.UnsignedInt, 0);
-
-                GL.DisableVertexAttribArray(0);
-                GL.DeleteBuffer(vbo);
-                GL.DeleteBuffer(ebo);
             }
 
             private void RenderGame()
@@ -384,14 +314,6 @@ namespace StreetSovereings_.src
                 );
             }
 
-            private bool IsMouseOverButton(Vector2 mousePosition, Vector2 buttonPosition, Vector2 buttonSize)
-            {
-                return mousePosition.X > buttonPosition.X &&
-                       mousePosition.X < buttonPosition.X + buttonSize.X &&
-                       mousePosition.Y > buttonPosition.Y &&
-                       mousePosition.Y < buttonPosition.Y + buttonSize.Y;
-            }
-
             private const string vertexShaderSource = @"
                 #version 330 core
                 layout (location = 0) in vec3 aPosition;
@@ -413,24 +335,6 @@ namespace StreetSovereings_.src
                 void main()
                 {
                     color = ourColor;
-                }";
-
-            private const string menuVertexShaderSource = @"
-                #version 330 core
-                layout (location = 0) in vec2 aPosition;
-
-                void main()
-                {
-                    gl_Position = vec4(aPosition, 0.0, 1.0);
-                }";
-
-            private const string menuFragmentShaderSource = @"
-                #version 330 core
-                out vec4 color;
-
-                void main()
-                {
-                    color = vec4(0.0, 0.8, 0.2, 1.0); // Green color for the button
                 }";
 
             private const string frameVertexShaderSource = @"
