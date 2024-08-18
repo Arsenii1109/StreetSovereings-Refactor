@@ -7,9 +7,9 @@
         mc:Ignorable="d"
         Title="Street Sovereings Menu" Height="450" Width="800" Background="#FF252525">
     <Grid>
-        <Button x:Name="play" Content="Play" HorizontalAlignment="Center" VerticalAlignment="Center" Click="Button_Click" Height="89" Width="216" FontSize="48" Background="#FF4B4198" BorderBrush="White"/>
+        <Button x:Name="Play" Content="Play" HorizontalAlignment="Center" VerticalAlignment="Center" Click="StartGame" Height="89" Width="216" FontSize="48" Background="#FF4B4198" BorderBrush="White"/>
         <Label Content="StreetSovereings&#xD;&#xA;" HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="48"/>
-        <Button x:Name="quit" Content="Quit" HorizontalAlignment="Center" VerticalAlignment="Top" Click="Button_Click" Height="89" Width="216" FontSize="48" Background="#FF4B4198" BorderBrush="White" Margin="0,292,0,0"/>
+        <Button x:Name="Quit" Content="Quit" HorizontalAlignment="Center" VerticalAlignment="Top" Click="QuitGame" Height="89" Width="216" FontSize="48" Background="#FF4B4198" BorderBrush="White" Margin="0,292,0,0"/>
 
     </Grid>
 </Window>

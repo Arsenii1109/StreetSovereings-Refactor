@@ -1,4 +1,5 @@
 ﻿using System.Windows;
+using StreetSovereigns;
 
 namespace StreetSovereings_.Menu
 {
@@ -12,9 +13,15 @@ namespace StreetSovereings_.Menu
             InitializeComponent();
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private void StartGame(object sender, RoutedEventArgs e)
         {
-            
+            Close();
+            Program.Main();
+        }
+        
+        private void QuitGame(object sender, RoutedEventArgs e)
+        {
+            Close();
         }
     }
 }

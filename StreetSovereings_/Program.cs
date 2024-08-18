@@ -1,18 +1,22 @@
 ﻿using OpenTK.Mathematics;
+using OpenTK.Windowing.Desktop;
 using StreetSovereigns.src.hooks;
 using StreetSovereings_.src;
 using StreetSovereings_.src.ModLoader;
 
 namespace StreetSovereigns
 {
-    class Program
+    public class Program
     {
+        private static GameWindow? _window;
+        
         [STAThread]
         public static void Main()
         {
             Console.WriteLine("Loading...");
             using (var game = new Renderer.Game())
             {
+                _window = game;
                 Console.WriteLine("Mod Loader Status: " + ModLoaderHook.CheckModLoader());
                 if (ModLoaderHook.CheckModLoader())
                 {
@@ -26,6 +30,11 @@ namespace StreetSovereigns
                 game.AddCube(0.0f, 1.0f, 0.0f, new Vector4(1.0f, 1.0f, 0.0f, 1.0f), 1.0f);
                 game.Run();
             }
+        }
+
+        public static void Destroy()
+        {
+            _window?.Close();
         }
     }
 }
