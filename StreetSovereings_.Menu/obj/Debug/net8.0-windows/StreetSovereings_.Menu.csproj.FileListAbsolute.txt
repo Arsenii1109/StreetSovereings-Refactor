@@ -49,3 +49,5 @@ C:\Users\admin\Desktop\SS\StreetSovereings\StreetSovereings_.Menu\obj\Debug\net8
 C:\Users\admin\Desktop\SS\StreetSovereings\StreetSovereings_.Menu\obj\Debug\net8.0-windows\StreetSovereings_.Menu.pdb
 C:\Users\admin\Desktop\SS\StreetSovereings\StreetSovereings_.Menu\obj\Debug\net8.0-windows\StreetSovereings_.Menu.genruntimeconfig.cache
 C:\Users\admin\Desktop\SS\StreetSovereings\StreetSovereings_.Menu\obj\Debug\net8.0-windows\ref\StreetSovereings_.Menu.dll
+C:\Users\admin\Desktop\SS\StreetSovereings\StreetSovereings_.Menu\obj\Debug\net8.0-windows\SettingsWindow.g.cs
+C:\Users\admin\Desktop\SS\StreetSovereings\StreetSovereings_.Menu\obj\Debug\net8.0-windows\SettingsWindow.baml

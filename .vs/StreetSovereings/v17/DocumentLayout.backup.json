@@ -3,32 +3,48 @@
   "WorkspaceRootPath": "C:\\Users\\admin\\Desktop\\SS\\StreetSovereings\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{37CB8A56-C7CF-47B7-8131-ABEEB3CD345A}|StreetSovereings_.Menu\\StreetSovereings_.Menu.csproj|c:\\users\\admin\\desktop\\ss\\streetsovereings\\streetsovereings_.menu\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{37CB8A56-C7CF-47B7-8131-ABEEB3CD345A}|StreetSovereings_.Menu\\StreetSovereings_.Menu.csproj|solutionrelative:streetsovereings_.menu\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{37CB8A56-C7CF-47B7-8131-ABEEB3CD345A}|StreetSovereings_.Menu\\StreetSovereings_.Menu.csproj|c:\\users\\admin\\desktop\\ss\\streetsovereings\\streetsovereings_.menu\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{37CB8A56-C7CF-47B7-8131-ABEEB3CD345A}|StreetSovereings_.Menu\\StreetSovereings_.Menu.csproj|solutionrelative:streetsovereings_.menu\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{37CB8A56-C7CF-47B7-8131-ABEEB3CD345A}|StreetSovereings_.Menu\\StreetSovereings_.Menu.csproj|c:\\users\\admin\\desktop\\ss\\streetsovereings\\streetsovereings_.menu\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{37CB8A56-C7CF-47B7-8131-ABEEB3CD345A}|StreetSovereings_.Menu\\StreetSovereings_.Menu.csproj|solutionrelative:streetsovereings_.menu\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{37CB8A56-C7CF-47B7-8131-ABEEB3CD345A}|StreetSovereings_.Menu\\StreetSovereings_.Menu.csproj|c:\\users\\admin\\desktop\\ss\\streetsovereings\\streetsovereings_.menu\\settingswindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{37CB8A56-C7CF-47B7-8131-ABEEB3CD345A}|StreetSovereings_.Menu\\StreetSovereings_.Menu.csproj|solutionrelative:streetsovereings_.menu\\settingswindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37CB8A56-C7CF-47B7-8131-ABEEB3CD345A}|StreetSovereings_.Menu\\StreetSovereings_.Menu.csproj|c:\\users\\admin\\desktop\\ss\\streetsovereings\\streetsovereings_.menu\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37CB8A56-C7CF-47B7-8131-ABEEB3CD345A}|StreetSovereings_.Menu\\StreetSovereings_.Menu.csproj|solutionrelative:streetsovereings_.menu\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37CB8A56-C7CF-47B7-8131-ABEEB3CD345A}|StreetSovereings_.Menu\\StreetSovereings_.Menu.csproj|c:\\users\\admin\\desktop\\ss\\streetsovereings\\streetsovereings_.menu\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{37CB8A56-C7CF-47B7-8131-ABEEB3CD345A}|StreetSovereings_.Menu\\StreetSovereings_.Menu.csproj|solutionrelative:streetsovereings_.menu\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37CB8A56-C7CF-47B7-8131-ABEEB3CD345A}|StreetSovereings_.Menu\\StreetSovereings_.Menu.csproj|c:\\users\\admin\\desktop\\ss\\streetsovereings\\streetsovereings_.menu\\settingswindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37CB8A56-C7CF-47B7-8131-ABEEB3CD345A}|StreetSovereings_.Menu\\StreetSovereings_.Menu.csproj|solutionrelative:streetsovereings_.menu\\settingswindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{37CB8A56-C7CF-47B7-8131-ABEEB3CD345A}|StreetSovereings_.Menu\\StreetSovereings_.Menu.csproj|c:\\users\\admin\\desktop\\ss\\streetsovereings\\streetsovereings_.menu\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{37CB8A56-C7CF-47B7-8131-ABEEB3CD345A}|StreetSovereings_.Menu\\StreetSovereings_.Menu.csproj|solutionrelative:streetsovereings_.menu\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{31DC468E-5908-4424-88D1-5D082962D9CE}|StreetSovereings_\\StreetSovereings_.csproj|c:\\users\\admin\\desktop\\ss\\streetsovereings\\streetsovereings_\\src\\hooks\\confighook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31DC468E-5908-4424-88D1-5D082962D9CE}|StreetSovereings_\\StreetSovereings_.csproj|solutionrelative:streetsovereings_\\src\\hooks\\confighook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{31DC468E-5908-4424-88D1-5D082962D9CE}|StreetSovereings_\\StreetSovereings_.csproj|c:\\users\\admin\\desktop\\ss\\streetsovereings\\streetsovereings_\\src\\renderer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{31DC468E-5908-4424-88D1-5D082962D9CE}|StreetSovereings_\\StreetSovereings_.csproj|solutionrelative:streetsovereings_\\src\\renderer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{31DC468E-5908-4424-88D1-5D082962D9CE}|StreetSovereings_\\StreetSovereings_.csproj|c:\\users\\admin\\desktop\\ss\\streetsovereings\\streetsovereings_\\src\\modloader\\modloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{31DC468E-5908-4424-88D1-5D082962D9CE}|StreetSovereings_\\StreetSovereings_.csproj|solutionrelative:streetsovereings_\\src\\modloader\\modloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{31DC468E-5908-4424-88D1-5D082962D9CE}|StreetSovereings_\\StreetSovereings_.csproj|c:\\users\\admin\\desktop\\ss\\streetsovereings\\streetsovereings_\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{31DC468E-5908-4424-88D1-5D082962D9CE}|StreetSovereings_\\StreetSovereings_.csproj|solutionrelative:streetsovereings_\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31DC468E-5908-4424-88D1-5D082962D9CE}|StreetSovereings_\\StreetSovereings_.csproj|c:\\users\\admin\\desktop\\ss\\streetsovereings\\streetsovereings_\\assets\\config\\config.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{31DC468E-5908-4424-88D1-5D082962D9CE}|StreetSovereings_\\StreetSovereings_.csproj|solutionrelative:streetsovereings_\\assets\\config\\config.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31DC468E-5908-4424-88D1-5D082962D9CE}|StreetSovereings_\\StreetSovereings_.csproj|c:\\users\\admin\\desktop\\ss\\streetsovereings\\streetsovereings_\\src\\modloader\\modloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31DC468E-5908-4424-88D1-5D082962D9CE}|StreetSovereings_\\StreetSovereings_.csproj|solutionrelative:streetsovereings_\\src\\modloader\\modloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{31DC468E-5908-4424-88D1-5D082962D9CE}|StreetSovereings_\\StreetSovereings_.csproj|c:\\users\\admin\\desktop\\ss\\streetsovereings\\streetsovereings_\\streetsovereings_.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -69,8 +85,18 @@
           "SelectedChildIndex": 5,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\SS\\StreetSovereings\\StreetSovereings_.Menu\\App.xaml.cs",
+              "RelativeDocumentMoniker": "StreetSovereings_.Menu\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\SS\\StreetSovereings\\StreetSovereings_.Menu\\App.xaml.cs",
+              "RelativeToolTip": "StreetSovereings_.Menu\\App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-19T08:07:20.93Z",
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
@@ -78,7 +104,32 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
+              "Title": "SettingsWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\SS\\StreetSovereings\\StreetSovereings_.Menu\\SettingsWindow.xaml",
+              "RelativeDocumentMoniker": "StreetSovereings_.Menu\\SettingsWindow.xaml",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\SS\\StreetSovereings\\StreetSovereings_.Menu\\SettingsWindow.xaml",
+              "RelativeToolTip": "StreetSovereings_.Menu\\SettingsWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-08-19T08:14:04.775Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "config.json",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\SS\\StreetSovereings\\StreetSovereings_\\assets\\config\\config.json",
+              "RelativeDocumentMoniker": "StreetSovereings_\\assets\\config\\config.json",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\SS\\StreetSovereings\\StreetSovereings_\\assets\\config\\config.json",
+              "RelativeToolTip": "StreetSovereings_\\assets\\config\\config.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-08-19T07:10:14.039Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "AssemblyInfo.cs",
               "DocumentMoniker": "C:\\Users\\admin\\Desktop\\SS\\StreetSovereings\\StreetSovereings_.Menu\\AssemblyInfo.cs",
               "RelativeDocumentMoniker": "StreetSovereings_.Menu\\AssemblyInfo.cs",
@@ -91,32 +142,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "StreetSovereings_.Menu",
-              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\SS\\StreetSovereings\\StreetSovereings_.Menu\\StreetSovereings_.Menu.csproj",
-              "RelativeDocumentMoniker": "StreetSovereings_.Menu\\StreetSovereings_.Menu.csproj",
-              "ToolTip": "C:\\Users\\admin\\Desktop\\SS\\StreetSovereings\\StreetSovereings_.Menu\\StreetSovereings_.Menu.csproj",
-              "RelativeToolTip": "StreetSovereings_.Menu\\StreetSovereings_.Menu.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-08-18T11:37:14.453Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "App.xaml",
-              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\SS\\StreetSovereings\\StreetSovereings_.Menu\\App.xaml",
-              "RelativeDocumentMoniker": "StreetSovereings_.Menu\\App.xaml",
-              "ToolTip": "C:\\Users\\admin\\Desktop\\SS\\StreetSovereings\\StreetSovereings_.Menu\\App.xaml",
-              "RelativeToolTip": "StreetSovereings_.Menu\\App.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-08-15T18:53:33.508Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\SS\\StreetSovereings\\StreetSovereings_.Menu\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "StreetSovereings_.Menu\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\SS\\StreetSovereings\\StreetSovereings_.Menu\\MainWindow.xaml.cs",
+              "RelativeToolTip": "StreetSovereings_.Menu\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAYwB0AAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T18:34:28.134Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SettingsWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\SS\\StreetSovereings\\StreetSovereings_.Menu\\SettingsWindow.xaml.cs",
+              "RelativeDocumentMoniker": "StreetSovereings_.Menu\\SettingsWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\SS\\StreetSovereings\\StreetSovereings_.Menu\\SettingsWindow.xaml.cs",
+              "RelativeToolTip": "StreetSovereings_.Menu\\SettingsWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-19T08:14:44.564Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\admin\\Desktop\\SS\\StreetSovereings\\StreetSovereings_.Menu\\MainWindow.xaml",
               "RelativeDocumentMoniker": "StreetSovereings_.Menu\\MainWindow.xaml",
@@ -128,20 +180,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\SS\\StreetSovereings\\StreetSovereings_.Menu\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "StreetSovereings_.Menu\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\admin\\Desktop\\SS\\StreetSovereings\\StreetSovereings_.Menu\\MainWindow.xaml.cs",
-              "RelativeToolTip": "StreetSovereings_.Menu\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAhwBcAAAAMAAAAAAAAAA==",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\SS\\StreetSovereings\\StreetSovereings_\\Program.cs",
+              "RelativeDocumentMoniker": "StreetSovereings_\\Program.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\SS\\StreetSovereings\\StreetSovereings_\\Program.cs",
+              "RelativeToolTip": "StreetSovereings_\\Program.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAgwAUAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-15T18:34:28.134Z",
+              "WhenOpened": "2024-08-15T10:18:35.226Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 6,
+              "Title": "configHook.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\SS\\StreetSovereings\\StreetSovereings_\\src\\hooks\\configHook.cs",
+              "RelativeDocumentMoniker": "StreetSovereings_\\src\\hooks\\configHook.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\SS\\StreetSovereings\\StreetSovereings_\\src\\hooks\\configHook.cs",
+              "RelativeToolTip": "StreetSovereings_\\src\\hooks\\configHook.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-19T07:49:59.649Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\admin\\Desktop\\SS\\StreetSovereings\\StreetSovereings_.ModChecker\\Program.cs",
               "RelativeDocumentMoniker": "StreetSovereings_.ModChecker\\Program.cs",
@@ -154,20 +219,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\SS\\StreetSovereings\\StreetSovereings_\\Program.cs",
-              "RelativeDocumentMoniker": "StreetSovereings_\\Program.cs",
-              "ToolTip": "C:\\Users\\admin\\Desktop\\SS\\StreetSovereings\\StreetSovereings_\\Program.cs",
-              "RelativeToolTip": "StreetSovereings_\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 7,
+              "Title": "Renderer.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\SS\\StreetSovereings\\StreetSovereings_\\src\\Renderer.cs",
+              "RelativeDocumentMoniker": "StreetSovereings_\\src\\Renderer.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\SS\\StreetSovereings\\StreetSovereings_\\src\\Renderer.cs",
+              "RelativeToolTip": "StreetSovereings_\\src\\Renderer.cs",
+              "ViewState": "AgIAAIEAAAAAAAAAAAAmwAcAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-15T10:18:35.226Z",
+              "WhenOpened": "2024-07-26T09:21:01.763Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
+              "Title": "StreetSovereings_.Menu.csproj",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\SS\\StreetSovereings\\StreetSovereings_.Menu\\StreetSovereings_.Menu.csproj",
+              "RelativeDocumentMoniker": "StreetSovereings_.Menu\\StreetSovereings_.Menu.csproj",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\SS\\StreetSovereings\\StreetSovereings_.Menu\\StreetSovereings_.Menu.csproj",
+              "RelativeToolTip": "StreetSovereings_.Menu\\StreetSovereings_.Menu.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-08-18T11:37:14.453Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
               "Title": "GameObject.cs",
               "DocumentMoniker": "C:\\Users\\admin\\Desktop\\SS\\StreetSovereings\\StreetSovereings_\\src\\objects\\GameObject.cs",
               "RelativeDocumentMoniker": "StreetSovereings_\\src\\objects\\GameObject.cs",
@@ -180,7 +258,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 14,
               "Title": "addModel.cs",
               "DocumentMoniker": "C:\\Users\\admin\\Desktop\\SS\\StreetSovereings\\StreetSovereings_\\src\\objects\\addModel.cs",
               "RelativeDocumentMoniker": "StreetSovereings_\\src\\objects\\addModel.cs",
@@ -193,7 +271,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 11,
               "Title": "StreetSovereings_.csproj",
               "DocumentMoniker": "C:\\Users\\admin\\Desktop\\SS\\StreetSovereings\\StreetSovereings_\\StreetSovereings_.csproj",
               "RelativeDocumentMoniker": "StreetSovereings_\\StreetSovereings_.csproj",
@@ -206,7 +284,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 17,
               "Title": "addPlane.cs",
               "DocumentMoniker": "C:\\Users\\admin\\Desktop\\SS\\StreetSovereings\\StreetSovereings_\\src\\objects\\addPlane.cs",
               "RelativeDocumentMoniker": "StreetSovereings_\\src\\objects\\addPlane.cs",
@@ -219,20 +297,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Renderer.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\SS\\StreetSovereings\\StreetSovereings_\\src\\Renderer.cs",
-              "RelativeDocumentMoniker": "StreetSovereings_\\src\\Renderer.cs",
-              "ToolTip": "C:\\Users\\admin\\Desktop\\SS\\StreetSovereings\\StreetSovereings_\\src\\Renderer.cs",
-              "RelativeToolTip": "StreetSovereings_\\src\\Renderer.cs",
-              "ViewState": "AgIAAEAAAAAAAAAAAAAAAFEBAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-26T09:21:01.763Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 16,
               "Title": "addCube.cs",
               "DocumentMoniker": "C:\\Users\\admin\\Desktop\\SS\\StreetSovereings\\StreetSovereings_\\src\\objects\\addCube.cs",
               "RelativeDocumentMoniker": "StreetSovereings_\\src\\objects\\addCube.cs",
@@ -245,7 +310,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 10,
               "Title": "ModLoader.cs",
               "DocumentMoniker": "C:\\Users\\admin\\Desktop\\SS\\StreetSovereings\\StreetSovereings_\\src\\ModLoader\\ModLoader.cs",
               "RelativeDocumentMoniker": "StreetSovereings_\\src\\ModLoader\\ModLoader.cs",

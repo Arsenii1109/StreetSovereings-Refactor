@@ -1,4 +1,5 @@
 ﻿using System.Windows;
+using OpenTK.Core.Exceptions;
 using StreetSovereigns;
 
 namespace StreetSovereings_.Menu
@@ -22,6 +23,12 @@ namespace StreetSovereings_.Menu
         private void QuitGame(object sender, RoutedEventArgs e)
         {
             Close();
+        }
+
+        private void OpenSettings(object sender, RoutedEventArgs e)
+        {
+            SettingsWindow settingsWindow = new SettingsWindow();
+            settingsWindow.Show();
         }
     }
 }

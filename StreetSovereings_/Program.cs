@@ -2,6 +2,7 @@
 using OpenTK.Windowing.Desktop;
 using StreetSovereigns.src.hooks;
 using StreetSovereings_.src;
+using StreetSovereings_.src.hooks;
 using StreetSovereings_.src.ModLoader;
 
 namespace StreetSovereigns
@@ -17,6 +18,8 @@ namespace StreetSovereigns
             using (var game = new Renderer.Game())
             {
                 _window = game;
+                configHook config = new configHook();
+                Console.WriteLine($"ConfigEnabled: {config.GetConfig()}");
                 Console.WriteLine("Mod Loader Status: " + ModLoaderHook.CheckModLoader());
                 if (ModLoaderHook.CheckModLoader())
                 {

@@ -30,6 +30,23 @@
                 </Button.Style>
             </Button>
 
+            <Button x:Name="Settings" Content="Settings" Click="OpenSettings" Height="59" Width="139" FontSize="40" Margin="10" Foreground="White" Background="Transparent" BorderThickness="0">
+                <Button.Style>
+                    <Style TargetType="Button">
+                        <Setter Property="Cursor" Value="Hand"/>
+                        <Setter Property="Template">
+                            <Setter.Value>
+                                <ControlTemplate TargetType="Button">
+                                    <Border Background="Transparent">
+                                        <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                    </Border>
+                                </ControlTemplate>
+                            </Setter.Value>
+                        </Setter>
+                    </Style>
+                </Button.Style>
+            </Button>
+
             <Button x:Name="Quit" Content="Quit" Click="QuitGame" Height="59" Width="139" FontSize="40" Margin="10" Foreground="White" Background="Transparent" BorderThickness="0">
                 <Button.Style>
                     <Style TargetType="Button">
