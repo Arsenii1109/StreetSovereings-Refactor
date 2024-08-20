@@ -21,7 +21,7 @@ namespace StreetSovereings_.src
         {
             private enum GameState
             {
-                Playing // Removed Menu state
+                Playing 
             }
 
             private GameState _currentState = GameState.Playing;
@@ -87,31 +87,25 @@ namespace StreetSovereings_.src
 
                 GL.Enable(EnableCap.DepthTest);
 
-                // Add a default plane
-                AddPlane(0.0f, -1.0f, 0.0f, 10.0f, 0.1f, 10.0f, new Vector4(0.5f, 0.5f, 0.5f, 1.0f)); // Ensure all four parameters are provided
+                AddPlane(0.0f, -1.0f, 0.0f, 10.0f, 0.1f, 10.0f, new Vector4(0.5f, 0.5f, 0.5f, 1.0f)); 
             }
 
             private void InitializeBuffers()
             {
-                // Create VAO
                 _vao = GL.GenVertexArray();
                 GL.BindVertexArray(_vao);
 
-                // Create VBO
                 _vbo = GL.GenBuffer();
                 GL.BindBuffer(BufferTarget.ArrayBuffer, _vbo);
                 GL.BufferData(BufferTarget.ArrayBuffer, _vertices.Length * sizeof(float), _vertices, BufferUsageHint.StaticDraw);
 
-                // Create EBO
                 _ebo = GL.GenBuffer();
                 GL.BindBuffer(BufferTarget.ElementArrayBuffer, _ebo);
                 GL.BufferData(BufferTarget.ElementArrayBuffer, _indices.Length * sizeof(uint), _indices, BufferUsageHint.StaticDraw);
 
-                // Vertex attributes
                 GL.VertexAttribPointer(0, 3, VertexAttribPointerType.Float, false, 3 * sizeof(float), 0);
                 GL.EnableVertexAttribArray(0);
 
-                // Unbind VBO and VAO
                 GL.BindBuffer(BufferTarget.ArrayBuffer, 0);
                 GL.BindVertexArray(0);
             }

@@ -24,6 +24,7 @@
     <Folder Include="assets\textures\" />
   </ItemGroup>
 
+
   <ItemGroup>
     <None Update="assets\sounds\walking.mp3">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>

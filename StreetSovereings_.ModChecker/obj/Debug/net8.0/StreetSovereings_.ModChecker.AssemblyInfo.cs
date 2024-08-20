@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("StreetSovereings_.ModChecker")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+92e611266c208d07c5c131929cf291577614b71a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+02b835c1ec47b6c9d724fdc4c5043eb923c6d966")]
 [assembly: System.Reflection.AssemblyProductAttribute("StreetSovereings_.ModChecker")]
 [assembly: System.Reflection.AssemblyTitleAttribute("StreetSovereings_.ModChecker")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

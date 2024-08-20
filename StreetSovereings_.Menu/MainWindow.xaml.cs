@@ -17,7 +17,7 @@ namespace StreetSovereings_.Menu
         private void StartGame(object sender, RoutedEventArgs e)
         {
             Close();
-            Program.Main();
+            Program.ShowRenderer();
         }
         
         private void QuitGame(object sender, RoutedEventArgs e)

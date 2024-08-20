@@ -14,6 +14,11 @@ namespace StreetSovereigns
         [STAThread]
         public static void Main()
         {
+
+        }
+
+        public static void ShowRenderer()
+        {
             Console.WriteLine("Loading...");
             using (var game = new Renderer.Game())
             {
