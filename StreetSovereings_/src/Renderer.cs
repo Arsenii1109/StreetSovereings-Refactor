@@ -1,5 +1,4 @@
 ﻿using System;
-using NAudio.Wave;
 using OpenTK.Graphics.OpenGL4;
 using OpenTK.Mathematics;
 using OpenTK.Windowing.Common;
@@ -59,11 +58,9 @@ namespace StreetSovereings_.src
             private int _shaderProgram;
             private int _frameShaderProgram;
 
-            private bool _debugShowCoordinates = true;
+            private Sounds _sounds;
 
-            private IWavePlayer waveOutDeviceWalking;
-            private Mp3FileReader mp3FileReader;
-            private bool isWalkingSoundPlaying = false;
+            private bool _debugShowCoordinates = true;
 
             public Vector3 _cameraPosition = new Vector3(1.5f, 1.5f, 3f);
             private bool _leftControlPressed = false;
@@ -75,6 +72,7 @@ namespace StreetSovereings_.src
 
             public Game() : base(GameWindowSettings.Default, _settings)
             {
+                _sounds = new Sounds();
             }
 
             protected override void OnLoad()
@@ -82,8 +80,7 @@ namespace StreetSovereings_.src
                 base.OnLoad();
                 GL.ClearColor(Color4.Black);
 
-                waveOutDeviceWalking = new WaveOutEvent();
-                waveOutDeviceWalking.PlaybackStopped += OnPlaybackWalkingStopped;
+                _sounds.InitializeAudio();
 
                 InitializeBuffers();
                 InitializeShaders();
@@ -135,18 +132,6 @@ namespace StreetSovereings_.src
                 _frameShaderProgram = CreateShaderProgram(frameVertexShaderSource, frameFragmentShaderSource);
             }
 
-            private void InitializeAudio()
-            {
-                mp3FileReader?.Dispose();
-
-                mp3FileReader = new Mp3FileReader("./assets/sounds/walking.mp3");
-                waveOutDeviceWalking.Init(mp3FileReader);
-            }
-
-            private void OnPlaybackWalkingStopped(object sender, StoppedEventArgs e)
-            {
-                isWalkingSoundPlaying = false;
-            }
 
             protected override void OnUpdateFrame(FrameEventArgs args)
             {
@@ -176,7 +161,7 @@ namespace StreetSovereings_.src
 
                 if (movement != Vector3.Zero)
                 {
-                    StartWalkingSound();
+                    _sounds.StartWalkingSound();
                     ShowDebugCoordinates();
                 }
 
@@ -195,17 +180,6 @@ namespace StreetSovereings_.src
                 if (input.IsKeyDown(Keys.Escape) && input.IsKeyDown(Keys.LeftAlt))
                 {
                     Close();
-                }
-            }
-
-            private void StartWalkingSound()
-            {
-                if (!isWalkingSoundPlaying)
-                {
-                    waveOutDeviceWalking.Stop();
-                    InitializeAudio();
-                    waveOutDeviceWalking.Play();
-                    isWalkingSoundPlaying = true;
                 }
             }
 
