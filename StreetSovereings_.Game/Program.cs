@@ -14,7 +14,7 @@ namespace StreetSovereigns
         [STAThread]
         public static void Main()
         {
-
+            Console.WriteLine("Hi!");
         }
 
         public static void ShowRenderer()
