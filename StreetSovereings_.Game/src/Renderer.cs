@@ -65,7 +65,7 @@ namespace StreetSovereings_.src
             public Vector3 _cameraPosition = new Vector3(1.5f, 1.5f, 3f);
             private bool _leftControlPressed = false;
 
-            private float _rotation = 0.0f; // Initialize _rotation
+            private float _rotation = 0.0f;
 
             float speed = 0.001f;
             float _initialSpeed;
@@ -146,7 +146,7 @@ namespace StreetSovereings_.src
 
             private void UpdateGame(KeyboardState input)
             {
-                if (_currentState == GameState.Playing) // Use _currentState to avoid the warning
+                if (_currentState == GameState.Playing)
                 {
                     var movement = new Vector3(
                         input.IsKeyDown(Keys.D) ? speed : input.IsKeyDown(Keys.A) ? -speed : 0,

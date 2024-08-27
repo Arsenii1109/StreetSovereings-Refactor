@@ -13,7 +13,8 @@ namespace StreetSovereings_.src.ModLoader
 
             if (Directory.Exists(modsDirectory))
             {
-                string[] files = Directory.GetFiles(modsDirectory);
+                string[] files = Directory.GetFiles(modsDirectory)
+                    .Where(file => file.EndsWith(".ssmod")).ToArray();
 
                 foreach (string file in files)
                 {
@@ -38,8 +39,8 @@ namespace StreetSovereings_.src.ModLoader
                 int endIndex = statement.IndexOf(')');
                 if (endIndex != -1)
                 {
-                    string printArgument = statement.Substring(0, endIndex);
-                    Console.WriteLine(printArgument.Trim());
+                    string printArgument = statement.Substring(0, endIndex).Trim();
+                    Console.WriteLine(printArgument);
                 }
             }
         }
