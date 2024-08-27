@@ -13,8 +13,8 @@ namespace StreetSovereings_.src
         private static NativeWindowSettings _settings = new NativeWindowSettings
         {
             Title = "Street Sovereigns",
-            MinimumClientSize = new Vector2i(800, 600), // Use MinimumClientSize
-            ClientSize = new Vector2i(1000, 800) // Use ClientSize
+            MinimumClientSize = new Vector2i(800, 600), 
+            ClientSize = new Vector2i(1000, 800) 
         };
 
         public class Game : GameWindow
