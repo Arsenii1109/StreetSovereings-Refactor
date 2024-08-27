@@ -5,7 +5,7 @@ namespace StreetSovereings_.src
     public class Sounds
     {
         private IWavePlayer _waveOutDeviceWalking;
-        private Mp3FileReader _mp3FileReader;
+        private Mp3FileReader? _mp3FileReader;
         private bool _isWalkingSoundPlaying;
 
         public Sounds()
@@ -33,7 +33,7 @@ namespace StreetSovereings_.src
             }
         }
 
-        private void OnPlaybackWalkingStopped(object sender, StoppedEventArgs e)
+        private void OnPlaybackWalkingStopped(object? sender, StoppedEventArgs e) // Make sender nullable
         {
             _isWalkingSoundPlaying = false;
         }

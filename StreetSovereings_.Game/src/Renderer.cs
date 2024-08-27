@@ -13,8 +13,8 @@ namespace StreetSovereings_.src
         private static NativeWindowSettings _settings = new NativeWindowSettings
         {
             Title = "Street Sovereigns",
-            MinimumSize = new Vector2i(800, 600),
-            Size = new Vector2i(1000, 800)
+            MinimumClientSize = new Vector2i(800, 600), // Use MinimumClientSize
+            ClientSize = new Vector2i(1000, 800) // Use ClientSize
         };
 
         public class Game : GameWindow
@@ -65,7 +65,7 @@ namespace StreetSovereings_.src
             public Vector3 _cameraPosition = new Vector3(1.5f, 1.5f, 3f);
             private bool _leftControlPressed = false;
 
-            private float _rotation;
+            private float _rotation = 0.0f; // Initialize _rotation
 
             float speed = 0.001f;
             float _initialSpeed;
@@ -146,34 +146,37 @@ namespace StreetSovereings_.src
 
             private void UpdateGame(KeyboardState input)
             {
-                var movement = new Vector3(
-                    input.IsKeyDown(Keys.D) ? speed : input.IsKeyDown(Keys.A) ? -speed : 0,
-                    input.IsKeyDown(Keys.Space) ? speed : input.IsKeyDown(Keys.LeftShift) ? -speed : 0,
-                    input.IsKeyDown(Keys.W) ? -speed : input.IsKeyDown(Keys.S) ? speed : 0
-                );
-                _cameraPosition += movement;
+                if (_currentState == GameState.Playing) // Use _currentState to avoid the warning
+                {
+                    var movement = new Vector3(
+                        input.IsKeyDown(Keys.D) ? speed : input.IsKeyDown(Keys.A) ? -speed : 0,
+                        input.IsKeyDown(Keys.Space) ? speed : input.IsKeyDown(Keys.LeftShift) ? -speed : 0,
+                        input.IsKeyDown(Keys.W) ? -speed : input.IsKeyDown(Keys.S) ? speed : 0
+                    );
+                    _cameraPosition += movement;
 
-                if (movement != Vector3.Zero)
-                {
-                    _sounds.StartWalkingSound();
-                    ShowDebugCoordinates();
-                }
+                    if (movement != Vector3.Zero)
+                    {
+                        _sounds.StartWalkingSound();
+                        ShowDebugCoordinates();
+                    }
 
-                if (input.IsKeyPressed(Keys.LeftControl) && !_leftControlPressed)
-                {
-                    _initialSpeed = speed;
-                    speed *= 2;
-                    _leftControlPressed = true;
-                }
-                else if (input.IsKeyReleased(Keys.LeftControl) && _leftControlPressed)
-                {
-                    _leftControlPressed = false;
-                    speed = _initialSpeed;
-                }
+                    if (input.IsKeyPressed(Keys.LeftControl) && !_leftControlPressed)
+                    {
+                        _initialSpeed = speed;
+                        speed *= 2;
+                        _leftControlPressed = true;
+                    }
+                    else if (input.IsKeyReleased(Keys.LeftControl) && _leftControlPressed)
+                    {
+                        _leftControlPressed = false;
+                        speed = _initialSpeed;
+                    }
 
-                if (input.IsKeyDown(Keys.Escape) && input.IsKeyDown(Keys.LeftAlt))
-                {
-                    Close();
+                    if (input.IsKeyDown(Keys.Escape) && input.IsKeyDown(Keys.LeftAlt))
+                    {
+                        Close();
+                    }
                 }
             }
 
