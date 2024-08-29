@@ -5,6 +5,7 @@ using OpenTK.Windowing.Common;
 using OpenTK.Windowing.Desktop;
 using OpenTK.Windowing.GraphicsLibraryFramework;
 using StreetSovereings_.src.objects;
+using StreetSovereings_.src.ModLoader;
 
 namespace StreetSovereings_.src
 {
@@ -73,6 +74,8 @@ namespace StreetSovereings_.src
             public Game() : base(GameWindowSettings.Default, _settings)
             {
                 _sounds = new Sounds();
+                ModLoader.ModLoader.Initialize(this);
+                
             }
 
             protected override void OnLoad()
@@ -140,7 +143,7 @@ namespace StreetSovereings_.src
             {
                 if (_debugShowCoordinates)
                 {
-                    Console.WriteLine(_cameraPosition);
+                    Console.WriteLine($"Debug Coord: {_cameraPosition}");
                 }
             }
 

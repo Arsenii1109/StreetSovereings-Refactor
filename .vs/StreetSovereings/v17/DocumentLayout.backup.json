@@ -3,16 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\admin\\Desktop\\SS\\StreetSovereings\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{31DC468E-5908-4424-88D1-5D082962D9CE}|StreetSovereings_.Game\\StreetSovereings_.Game.csproj|c:\\users\\admin\\desktop\\ss\\streetsovereings\\streetsovereings_.game\\src\\sounds.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{31DC468E-5908-4424-88D1-5D082962D9CE}|StreetSovereings_.Game\\StreetSovereings_.Game.csproj|solutionrelative:streetsovereings_.game\\src\\sounds.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{31DC468E-5908-4424-88D1-5D082962D9CE}|StreetSovereings_.Game\\StreetSovereings_.Game.csproj|c:\\users\\admin\\desktop\\ss\\streetsovereings\\streetsovereings_.game\\src\\modloader\\modloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31DC468E-5908-4424-88D1-5D082962D9CE}|StreetSovereings_.Game\\StreetSovereings_.Game.csproj|solutionrelative:streetsovereings_.game\\src\\modloader\\modloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{31DC468E-5908-4424-88D1-5D082962D9CE}|StreetSovereings_.Game\\StreetSovereings_.Game.csproj|c:\\users\\admin\\desktop\\ss\\streetsovereings\\streetsovereings_.game\\src\\renderer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{31DC468E-5908-4424-88D1-5D082962D9CE}|StreetSovereings_.Game\\StreetSovereings_.Game.csproj|solutionrelative:streetsovereings_.game\\src\\renderer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{31DC468E-5908-4424-88D1-5D082962D9CE}|StreetSovereings_.Game\\StreetSovereings_.Game.csproj|c:\\users\\admin\\desktop\\ss\\streetsovereings\\streetsovereings_.game\\src\\hooks\\modloaderhook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31DC468E-5908-4424-88D1-5D082962D9CE}|StreetSovereings_.Game\\StreetSovereings_.Game.csproj|solutionrelative:streetsovereings_.game\\src\\hooks\\modloaderhook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{31DC468E-5908-4424-88D1-5D082962D9CE}|StreetSovereings_.Game\\StreetSovereings_.Game.csproj|c:\\users\\admin\\desktop\\ss\\streetsovereings\\streetsovereings_.game\\src\\objects\\addplane.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{31DC468E-5908-4424-88D1-5D082962D9CE}|StreetSovereings_.Game\\StreetSovereings_.Game.csproj|solutionrelative:streetsovereings_.game\\src\\objects\\addplane.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31DC468E-5908-4424-88D1-5D082962D9CE}|StreetSovereings_.Game\\StreetSovereings_.Game.csproj|c:\\users\\admin\\desktop\\ss\\streetsovereings\\streetsovereings_.game\\src\\sounds.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31DC468E-5908-4424-88D1-5D082962D9CE}|StreetSovereings_.Game\\StreetSovereings_.Game.csproj|solutionrelative:streetsovereings_.game\\src\\sounds.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -31,25 +39,49 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Sounds.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\SS\\StreetSovereings\\StreetSovereings_.Game\\src\\Sounds.cs",
-              "RelativeDocumentMoniker": "StreetSovereings_.Game\\src\\Sounds.cs",
-              "ToolTip": "C:\\Users\\admin\\Desktop\\SS\\StreetSovereings\\StreetSovereings_.Game\\src\\Sounds.cs",
-              "RelativeToolTip": "StreetSovereings_.Game\\src\\Sounds.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAgwBEAAAAJAAAAAAAAAA==",
+              "Title": "ModLoader.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\SS\\StreetSovereings\\StreetSovereings_.Game\\src\\ModLoader\\ModLoader.cs",
+              "RelativeDocumentMoniker": "StreetSovereings_.Game\\src\\ModLoader\\ModLoader.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\SS\\StreetSovereings\\StreetSovereings_.Game\\src\\ModLoader\\ModLoader.cs",
+              "RelativeToolTip": "StreetSovereings_.Game\\src\\ModLoader\\ModLoader.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD4AAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-24T05:19:46.087Z",
+              "WhenOpened": "2024-08-28T13:41:58.006Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "modLoaderHook.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\SS\\StreetSovereings\\StreetSovereings_.Game\\src\\hooks\\modLoaderHook.cs",
+              "RelativeDocumentMoniker": "StreetSovereings_.Game\\src\\hooks\\modLoaderHook.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\SS\\StreetSovereings\\StreetSovereings_.Game\\src\\hooks\\modLoaderHook.cs",
+              "RelativeToolTip": "StreetSovereings_.Game\\src\\hooks\\modLoaderHook.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-28T13:41:55.494Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Sounds.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\SS\\StreetSovereings\\StreetSovereings_.Game\\src\\Sounds.cs",
+              "RelativeDocumentMoniker": "StreetSovereings_.Game\\src\\Sounds.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\SS\\StreetSovereings\\StreetSovereings_.Game\\src\\Sounds.cs",
+              "RelativeToolTip": "StreetSovereings_.Game\\src\\Sounds.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-24T05:19:46.087Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "addPlane.cs",
               "DocumentMoniker": "C:\\Users\\admin\\Desktop\\SS\\StreetSovereings\\StreetSovereings_.Game\\src\\objects\\addPlane.cs",
               "RelativeDocumentMoniker": "StreetSovereings_.Game\\src\\objects\\addPlane.cs",
               "ToolTip": "C:\\Users\\admin\\Desktop\\SS\\StreetSovereings\\StreetSovereings_.Game\\src\\objects\\addPlane.cs",
               "RelativeToolTip": "StreetSovereings_.Game\\src\\objects\\addPlane.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAgwCIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-22T15:26:46.595Z"
             },
@@ -61,9 +93,10 @@
               "RelativeDocumentMoniker": "StreetSovereings_.Game\\src\\Renderer.cs",
               "ToolTip": "C:\\Users\\admin\\Desktop\\SS\\StreetSovereings\\StreetSovereings_.Game\\src\\Renderer.cs",
               "RelativeToolTip": "StreetSovereings_.Game\\src\\Renderer.cs",
-              "ViewState": "AgIAAFMAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAkwEwAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-22T07:03:42.027Z"
+              "WhenOpened": "2024-08-22T07:03:42.027Z",
+              "EditorCaption": ""
             }
           ]
         }
