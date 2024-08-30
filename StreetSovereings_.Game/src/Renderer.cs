@@ -59,7 +59,7 @@ namespace StreetSovereings_.src
             private int _shaderProgram;
             private int _frameShaderProgram;
 
-            private Sounds _sounds;
+            //private Sounds _sounds;
 
             private bool _debugShowCoordinates = true;
 
@@ -73,7 +73,7 @@ namespace StreetSovereings_.src
 
             public Game() : base(GameWindowSettings.Default, _settings)
             {
-                _sounds = new Sounds();
+                //_sounds = new Sounds();
                 ModLoader.ModLoader.Initialize(this);
                 
             }
@@ -83,14 +83,14 @@ namespace StreetSovereings_.src
                 base.OnLoad();
                 GL.ClearColor(Color4.Black);
 
-                _sounds.InitializeAudio();
+                //_sounds.InitializeAudio();
 
                 InitializeBuffers();
                 InitializeShaders();
 
                 GL.Enable(EnableCap.DepthTest);
 
-                AddPlane(0.0f, -1.0f, 0.0f, 10.0f, 0.1f, 10.0f, new Vector4(0.5f, 0.5f, 0.5f, 1.0f)); 
+                //AddPlane(0.0f, -1.0f, 0.0f, 10.0f, 0.1f, 10.0f, new Vector4(0.5f, 0.5f, 0.5f, 1.0f)); 
             }
 
             private void InitializeBuffers()
@@ -160,7 +160,7 @@ namespace StreetSovereings_.src
 
                     if (movement != Vector3.Zero)
                     {
-                        _sounds.StartWalkingSound();
+                        //_sounds.StartWalkingSound();
                         ShowDebugCoordinates();
                     }
 

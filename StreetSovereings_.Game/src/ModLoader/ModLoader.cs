@@ -7,11 +7,11 @@ namespace StreetSovereings_.src.ModLoader
 {
     internal class ModLoader
     {
-        private static Renderer.Game? _gameInstance; // Храните ссылку на экземпляр Game
+        private static Renderer.Game? _gameInstance;
 
         public static void Initialize(Renderer.Game game)
         {
-            _gameInstance = game; // Сохраняем экземпляр Game
+            _gameInstance = game; 
         }
 
         internal static void Load()
@@ -30,7 +30,6 @@ namespace StreetSovereings_.src.ModLoader
                     ProcessFile(file);
                 }
             }
-            else
             {
                 Console.WriteLine($"Directory '{modsDirectory}' does not exist.\nSkipping Error.");
             }
