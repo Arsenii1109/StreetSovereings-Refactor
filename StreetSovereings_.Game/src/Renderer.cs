@@ -275,8 +275,9 @@ namespace StreetSovereings_.src
                 _cubeManager.AddCube(x, y, z, rgba, mass);
             }
 
-            public void AddPlane(float x, float y, float z, float sizeX, float sizeY, float sizeZ, Vector4 rgba)
+            public void AddPlane(float x, float y, float z, float sizeX, float sizeZ, Vector4 rgba)
             {
+                float sizeY = 0.1f;
                 _planeManager.AddPlane(x, y, z, sizeX, sizeY, sizeZ, rgba);
             }
 

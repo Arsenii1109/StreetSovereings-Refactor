@@ -67,22 +67,21 @@ namespace StreetSovereings_.src.ModLoader
         {
             Console.WriteLine($"Adding plane with argument: {argument}");
             var parameters = argument.Split(',');
-            if (parameters.Length == 10)
+            if (parameters.Length == 9)
             {
                 float x = float.Parse(parameters[0]);
                 float y = float.Parse(parameters[1]);
                 float z = float.Parse(parameters[2]);
                 float sizeX = float.Parse(parameters[3]);
-                float sizeY = float.Parse(parameters[4]);
-                float sizeZ = float.Parse(parameters[5]);
+                float sizeZ = float.Parse(parameters[4]);
                 Vector4 rgba = new Vector4(
+                    float.Parse(parameters[5]),
                     float.Parse(parameters[6]),
                     float.Parse(parameters[7]),
-                    float.Parse(parameters[8]),
-                    float.Parse(parameters[9])
+                    float.Parse(parameters[8])
                 );
 
-                _gameInstance.AddPlane(x, y, z, sizeX, sizeY, sizeZ, rgba); // Используйте существующий экземпляр
+                _gameInstance.AddPlane(x, y, z, sizeX, sizeZ, rgba); // Используйте существующий экземпляр
             }
             else
             {
