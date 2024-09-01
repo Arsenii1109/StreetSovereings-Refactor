@@ -5,9 +5,9 @@ VisualStudioVersion = 17.10.34916.146
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{3F80D366-CB46-4A8F-8A7D-BD699E25C439}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StreetSovereings_", "src\StreetSovereings_\StreetSovereings_.csproj", "{B3C0168B-05EE-4D64-96C8-AC72F2ECE6B9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StreetSovereings", "src\StreetSovereings\StreetSovereings.csproj", "{B3C0168B-05EE-4D64-96C8-AC72F2ECE6B9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StreetSovereings_.Game", "src\StreetSovereings_.Game\StreetSovereings_.Game.csproj", "{B67AF4D1-241E-4C45-9551-889F457AC645}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StreetSovereings.Game", "src\StreetSovereings.Game\StreetSovereings.Game.csproj", "{B67AF4D1-241E-4C45-9551-889F457AC645}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "common", "common", "{9EEB0CAE-41C8-4D63-96EC-46C5D342F1F1}"
 	ProjectSection(SolutionItems) = preProject
